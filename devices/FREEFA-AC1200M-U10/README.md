@@ -1,6 +1,8 @@
 # FREEFA AC1200M-U10 — OpenWrt port
 
-**Status:** Custom OpenWrt build installed to SPI NOR and tested as a wired bridged access point. **Not yet merged upstream.**
+![FREEFA AC1200M-U10 dual-band wireless AP](images/product.png)
+
+**Status:** Custom OpenWrt build installed to SPI NOR and tested as a wired bridged access point. **Upstream PR submitted:** [openwrt/openwrt#25832](https://github.com/openwrt/openwrt/pull/25832) (not yet merged).
 
 ## Identified hardware
 
@@ -52,4 +54,4 @@ See [validation](validation.md) and [installation safety](installation.md).
 - [ ] Confirm hardware identifiers, MAC addresses, factory calibration offsets and LED/button mappings.
 - [ ] Rebuild cleanly from documented sources and compare expected artifacts.
 - [ ] Check OpenWrt contribution conventions and image size constraints.
-- [ ] Submit a focused upstream pull request.
+- [x] Submit a focused upstream pull request ([#25832](https://github.com/openwrt/openwrt/pull/25832)).
